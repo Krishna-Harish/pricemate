@@ -1,0 +1,116 @@
+# PriceMate
+
+## Overview
+
+PriceMate is a full-stack web application designed to help users analyze and compare product prices efficiently. It provides intelligent price recommendations based on stored data, enabling informed purchasing decisions.
+
+
+
+## Features
+
+* Product price comparison
+* Price recommendation system
+* Web-based user interface
+* Backend processing using Python
+* Database integration for storing product data
+* Modular and scalable architecture
+
+
+
+## Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Python (Flask)
+* **Database:** MySQL
+* **Other Tools:** Environment variables (.env), SQL scripts
+
+---
+
+## Project Structure
+
+
+pricemate/
+│── app.py
+│── requirements.txt
+│── run.sh
+│── .env
+│── database/
+│    └── price_recommendation.sql
+│── templates/
+│    └── pro8.html
+│── README.md
+
+
+## Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/Krishna-Harish/pricemate.git
+cd pricemate
+```
+
+### 2. Create a virtual environment
+
+```
+python -m venv venv
+source venv/bin/activate     # Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+
+pip install -r requirements.txt
+
+
+### 4. Set up the database
+
+* Import the SQL file located at:
+
+
+database/price_recommendation.sql
+
+
+* Configure database credentials in the `.env` file.
+
+### 5. Run the application
+
+
+python app.py
+
+
+or
+
+bash run.sh
+
+
+## Usage
+
+* Open the application in a browser
+* Enter product details
+* View price comparisons and recommendations
+
+
+
+## Future Improvements
+
+* Integration with real-time e-commerce APIs
+* Machine learning-based price prediction
+* Improved UI responsiveness
+* Advanced analytics dashboard
+
+
+
+## Contributing
+
+Contributions are welcome. Please fork the repository and submit a pull request.
+
+
+## License
+
+This project is open-source and available under the MIT License.
+
+
+## Author
+
+Krishna Harish
+GitHub: https://github.com/Krishna-Harish
